@@ -2,22 +2,26 @@
 {% load static %}
 {% block title %}{{recipe.name}} Recipe{% endblock %}
 {% block content %}
-    <div class="d-flex justify-content-center">
-        <div>
-            <h1 class="text-center mb-4 text-center display-2 heading">{{ recipe.name }}</h1>
-            <h3>Ingredients:</h3>
-            <ul class="ingredient-list list-style">
-                {% for ingredient in ingredients %}
-                    <li class="ingredient-item"><span class="bullet-point"></span>{{ ingredient }}</li>
-                {% endfor %}
-            </ul>
-            <br><br>
-            <h3>Instructions:</h3>
-            <ol class="instruction-list list-style">
-                {% for instruction in instructions %}
-                    <li>{{ instruction }}</li>
-                {% endfor %}
-            </ol>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="text-center mb-4 display-2 heading">{{ recipe.name }}</h1>
+                <div>
+                    <h3>Ingredients:</h3>
+                    <ul class="ingredient-list list-style">
+                        {% for ingredient in ingredients %}
+                            <li class="ingredient-item"><span class="bullet-point"></span>{{ ingredient }}</li>
+                        {% endfor %}
+                    </ul>
+                    <br><br>
+                    <h3>Instructions:</h3>
+                    <ol class="instruction-list list-style">
+                        {% for instruction in instructions %}
+                            <li>{{ instruction }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}

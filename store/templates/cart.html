@@ -2,31 +2,37 @@
 {% load static %}
 {% block title %}Shopping Cart{% endblock %}
 {% block content %}
-  <table class="table table-responsive justify-content-center">
-    <h1 class="text-center mb-4 text-center display-2 heading">Cart Items</h1>
-      {% for item in cart_items %}
-      <tr>
-        <td>
-          <div class="d-flex align-items-center ">
-            <img src="{% static item.product.image %}" alt="{{item.product.name}}" class="fixed-height cart-item-img card-img-top">
-            <div class="ms-3">
-              <h5 class="mb-1">{{item.product.name}}</h5>
-              <p class="mb-1 card-subtitle mb-2 text-muted">Price: {{item.product.price}} BD</p>
-              <div class="d-flex ms-auto">
-                <form action="{% url 'store:increase-cart-item' item.product.id %}" method="post">
-                  {% csrf_token %}
-                  <button class="btn btn-primary quantity-btn increase-quantity" type="submit">+</button>
-                </form>
-                <span class="item-quantity mx-2">{{ item.quantity }}</span>
-                <form action="{% url 'store:decrease-cart-item' item.product.id %}" method="post">
-                  {% csrf_token %}
-                  <button class="btn btn-primary quantity-btn decrease-quantity" type="submit">-</button>
-                </form>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <table class="table table-responsive">
+          <h1 class="text-center mb-4 text-center display-2 heading">Cart Items</h1>
+          {% for item in cart_items %}
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="{% static item.product.image %}" alt="{{item.product.name}}" class="fixed-height cart-item-img card-img-top">
+                <div class="ms-3">
+                  <h5 class="mb-1">{{item.product.name}}</h5>
+                  <p class="mb-1 card-subtitle mb-2 text-muted">BHD {{item.product.price}}</p>
+                  <div class="d-flex ms-auto align-items-center">
+                    <form action="{% url 'store:increase-cart-item' item.product.id %}" method="post">
+                      {% csrf_token %}
+                      <button class="btn btn-primary quantity-btn increase-quantity" type="submit">+</button>
+                    </form>
+                    <span class="item-quantity mx-2">{{ item.quantity }}</span>
+                    <form action="{% url 'store:decrease-cart-item' item.product.id %}" method="post">
+                      {% csrf_token %}
+                      <button class="btn btn-primary quantity-btn decrease-quantity" type="submit">-</button>
+                    </form>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-      {% endfor %}
-  </table>
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </div>
 {% endblock %}
