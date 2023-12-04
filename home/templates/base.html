@@ -42,7 +42,7 @@
       </ul>
       {% if user.is_authenticated %}
       <div class="d-flex ms-auto navigation">
-        <a href="{% url 'store:cart' %}"><span class="bi bi-cart3 cart-style"></span></a>
+        <a href="{% url 'store:cart' %}"><span class="bi bi-cart3 cart-style "></span></a>
       </div>
       <a href="{% url 'userauth:logout' %}" class="btn btn-primary button button-margin" onclick="return confirmLogout()">Logout</a>
       <script>
