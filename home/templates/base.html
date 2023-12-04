@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+  <title>{% block title %}{% endblock %}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <link rel="icon" href="{% static 'images/icon.jpg' %}" type="image/x-icon" />
+</head>
+
+<body>
+
+  <nav class="nav-style navbar navbar-expand-sm container-fluid sticky-top">
+    <a class="navbar-brand" href="{% url 'home:home' %}">
+      <img src="{% static 'images/Logo.png' %}" alt="KitechMastery Logo" class="logo-height">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav navigation">
+        <li class="nav-item">
+          <a class="nav-link  {% if request.path == '/' %} active-page {% endif %}" href="{% url 'home:home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/store/' %} active-page {% endif %}" href="{% url 'store:store' %}">Our Store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/recipes/' %} active-page {% endif %}" href="{% url 'recipes:recipes' %}">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/tips/' %} active-page {% endif %}" href="{% url 'tips:tips' %}">Cooking Tips</a>
+        </li>
+      </ul>
+      {% if user.is_authenticated %}
+      <div class="d-flex ms-auto navigation">
+        <a href="{% url 'store:cart' %}"><span class="bi bi-cart3 cart-style"></span></a>
+      </div>
+      <a href="{% url 'userauth:logout' %}" class="btn btn-primary button button-margin" onclick="return confirmLogout()">Logout</a>
+      <script>
+        function confirmLogout() {
+          var confirmLogout = confirm("Are you sure you want to log out?");
+          if (confirmLogout) {
+            alert("You have successfully logged out.");
+            return true;
+          } else {
+            return false;
+          }
+        }
+      </script>
+      {% else %}
+      <a href="{% url 'userauth:login' %}" class="btn btn-primary button ms-auto button-margin">Login</a>
+      {% endif %}
+    </div>
+  </nav>
+
+  {% block content %}
+  {% endblock %}
+</body>
+
+</html>

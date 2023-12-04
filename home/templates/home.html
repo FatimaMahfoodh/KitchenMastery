@@ -1,0 +1,63 @@
+{%extends 'base.html'%}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="align-center container-fluid home-intro-margin">
+  <div class="row justify-content-center">
+    <div class="col-md-12 content-head">
+      <h1 class="mb-4 display-2 home-heading">Unleash Your Cooking Creativity</h1>
+      <p class="mbr-text mbr-fonts-style mb-4 display-7">
+        Spice up your kitchen with our premium cooking supplies and unlock endless culinary possibilities. Discover
+        the perfect tools and ingredients to bring your recipes to life.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5 justify-content-center">
+    <div class="col-lg-8 col-12 thumbnail text-center">
+      <img src="{% static 'images/kitchen.jpg' %}" class="img-fluid">
+    </div>
+  </div>
+</div>
+<div class="container home-intro-margin ">
+  <div class="row">
+    <div class="col-md-12 mb-4">
+      <h2 class="text-center display-2 heading ">Our Services</h2>
+    </div>
+    <div class="col-md-4 ">
+      <div class="card mb-4 rounded-2 card-body">
+        <img src="{% static 'images/supplies.jpg' %}" class="card-img-top rounded-top-2" alt="Service 1">
+        <div class="card-body">
+          <h5 class="card-title">Kitchen Supplies</h5>
+          <p class="card-text service-text-height">Find high-quality tools, cookware, and accessories for your kitchen.
+          </p>
+          <a href="{% url 'store:store' %}" class="btn btn-primary button">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 rounded-2 card-body">
+        <img src="{% static 'images/recepies.jpg' %}" class="card-img-top rounded-top-2" alt="Service 2">
+        <div class="card-body">
+          <h5 class="card-title">Cooking Recipes</h5>
+          <p class="card-text service-text-height">Explore a diverse collection of recipes for various cuisines and
+            occasions.</p>
+          <a href="{% url 'recipes:recipes' %}" class="btn btn-primary button">Discover</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 rounded-2 card-body">
+        <img src="{% static 'images/tips.jpg' %}" class="card-img-top rounded-top-2" alt="Service 3">
+        <div class="card-body">
+          <h5 class="card-title">Cooking Tips</h5>
+          <p class="card-text service-text-height">Get valuable insights and techniques to improve your cooking skills
+            and enhance your culinary experience.</p>
+          <a href="{% url 'tips:tips' %}" class="btn btn-primary button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

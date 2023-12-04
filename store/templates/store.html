@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Our Store{% endblock %}
+{% block content %}
+<div class="container mt-5 main-content">
+    <h1 class="text-center mb-4 text-center display-2 heading">Our Store</h1>
+    <div class="row">
+
+        {% for item in item_objects %}
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card mb-4 rounded-2">
+                <img src="{% static item.image %}" alt="{{item.name}}">
+                <div class="card-body card-body-padding">
+                    <div class="description-height">
+                        <h5 class="card-title">{{item.name}}</h5>
+                        <p class="card-text">{{item.description}}</p>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">BHD {{item.price}}</h6>
+                    <div class="d-flex justify-content-center">
+                        {% if user.is_authenticated %}
+                        <form action="{% url 'store:add-to-cart' item.id %}" method="post">
+                            {% csrf_token %}
+                            <button class="btn btn-primary add-to-basket button" type="submit" name="cart_items"
+                                value="{{ item.id }}">Add to Basket</button>
+                        </form>
+                        {% else %}
+                        <form action="{% url 'userauth:login' %}">
+                            {% csrf_token %}
+                            <button class="btn btn-primary add-to-basket button" type="submit" name="cart_items"
+                                value="{{ item.id }}">Add to Basket</button>
+                        </form>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

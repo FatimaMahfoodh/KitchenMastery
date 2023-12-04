@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Share a Tip{% endblock %}
+{% block content %}
+<h1 class="text-center mb-4 display-2" style="font-weight: bold">Share A Tip!</h1>
+
+<br><br>
+<div class="container">
+    <form method ="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.subject.label_tag }}
+            {{ form.subject }}
+        </div>
+        <div class="mb-3">
+            {{ form.description.label_tag }}
+            {{ form.description }}
+        </div>
+        <div class="mb-3">
+            {{ form.image.label_tag }}
+            {{ form.image }}
+          </div>
+        <button class="btn btn-primary button" type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}

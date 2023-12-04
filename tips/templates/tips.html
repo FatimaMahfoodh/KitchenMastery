@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Cooking Tips{% endblock %}
+{% block content %}
+<div class="container">
+  <h1 class="text-center mb-4 text-center display-2 heading" >Cooking Tips</h1>
+  <p class="text-center" style="font-size: large;">Join us in building a collection of helpful cooking tips for aspiring chefs and home cooks.</p>
+  <span class="d-flex justify-content-center"><a href="{% url 'tips:add_tip' %}" class="btn btn-primary button">Share a Tip</a></span>
+  <br><br>
+  <div class="row">
+    <div class="col-md-6 col-lg-4 tip-width" >
+      {% for tip in tip_list %}
+      <div class="card mb-4 rounded-2">
+        {% if tip.image %}
+        <img src= "{{ tip.image.url }}"  alt="{{tip.name}}" class="img-fluid">
+        {% endif %}
+        <div class="card-body">
+          <small class="text-muted">Posted By: {% if tip.user.is_authenticated %} {{tip.user.get_username}} {% else %} Visitor {% endif %}</small>
+          <br>
+          <small class="text-muted">{{tip.date }}</small>
+          <br><br>
+          <h5 class="card-title">{{ tip.subject }}</h5>
+          <p class="card-text">{{ tip.description }}</p>
+          <p class="card-text">
+          </p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
