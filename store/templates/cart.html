@@ -32,6 +32,9 @@
           </tr>
           {% endfor %}
         </table>
+        <div class="mt-3 p-3 bg-light border text-center total-price">
+          <h4><span class="total-price-title">Total Price: </span>BHD {{ cart.calculate_total_price|floatformat:2 }}</h4>
+      </div>           
       </div>
     </div>
   </div>

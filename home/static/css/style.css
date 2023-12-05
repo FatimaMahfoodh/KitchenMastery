@@ -162,30 +162,19 @@
 }
 
 .quantity-btn {
-  background-color:white;
-  border-color: #FABB39;
-  color: #281F1D;
-  font-weight: bold;
-
+  background-color: #FABB39 !important;
+  border-color: #FABB39!important;
+  color: white!important;
+  font-weight: bold!important;
 }
 
 .quantity-btn:hover {
-  background-color: #FABB39;
-  border-color: #FABB39;
-  color: white;
-  font-weight: bold;
-
+  background-color: #E35732 !important;
+  border-color: #E35732 !important;
 }
-
-.quantity-btn:active {
-  background-color:  #FABB39;;
-  border-color: #FABB39;;
-  color: white;
-}
-
 .item-quantity {
   font-weight: bold;
-  color: #E35732
+color:#281F1D;
 }
 
 .fixed-height {
@@ -212,12 +201,19 @@
 .tip-width {
   width: 100%;
 }
-.table {
-  margin-bottom: 100px;
-}
 .register-link-style {
   color:#E35732
 }
 .register-link-style:hover {
   color:#FABB39
+}
+.total-price {
+  border-radius: 2pc;
+  border-color: #FABB39!important;
+  background-color: #ffffff!important;
+  margin-bottom: 20px;
+}
+.total-price-title {
+  font-weight: bold;
+  color:#281F1D;
 }

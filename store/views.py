@@ -9,7 +9,8 @@ def store_view(request):
 
 def cart_view(request):
    cart_items = CartItem.objects.filter(cart__user=request.user)
-   context = {'cart_items': cart_items}
+   cart = request.user.cart
+   context = {'cart_items': cart_items,'cart':cart}
    return render(request, 'cart.html', context)
 
 def add_to_cart(request, product_id):
