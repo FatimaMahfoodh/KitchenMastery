@@ -16,4 +16,9 @@ class CartItem(models.Model):
 class Cart(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     products = models.ManyToManyField(Product, through='CartItem')
+    
+    def calculate_total_price(self):
+        cart_items = CartItem.objects.filter(cart=self)
+        total_price = sum(item.product.price * item.quantity for item in cart_items)
+        return total_price
 
