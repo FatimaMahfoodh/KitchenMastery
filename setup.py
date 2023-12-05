@@ -41,7 +41,7 @@ recipes = [
         'description': 'Classic Italian pasta dish with meaty Bolognese sauce.',
         'image': '/images/recipe6.jpg',
         'ingredients': '400g ground beef, 1 onion, 2 cloves garlic, 400g canned tomatoes, 2 tablespoons tomato paste, 1 teaspoon dried oregano, Salt, Pepper, 300g spaghetti',
-        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet, cook ground beef until browned., 3. Add chopped onion and garlic, cook until softened., 4. Stir in canned tomatoes, tomato paste, oregano, salt, and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
+        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet, cook ground beef until browned., 3. Add chopped onion and garlic, cook until softened., 4. Stir in canned tomatoes tomato paste oregano salt and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
     },
     {
         'name': 'Chicken Caesar Salad',
@@ -62,7 +62,7 @@ recipes = [
         'description': 'Classic chocolate chip cookies.',
         'image': '/images/recipe9.jpg',
         'ingredients': '1 cup butter, 3/4 cup brown sugar, 3/4 cup granulated sugar, 2 large eggs, 1 teaspoon vanilla extract, 2 1/4 cups all-purpose flour, 1 teaspoon baking soda, 1/2 teaspoon salt, 2 cups chocolate chips',
-        'instructions': '1. Preheat oven to 375°F (190°C)., 2. In a bowl, cream together butter, brown sugar, and granulated sugar., 3. Beat in eggs and vanilla., 4. In a separate bowl, whisk together flour, baking soda, and salt., 5. Combine wet and dry ingredients., 6. Fold in chocolate chips., 7. Drop spoonfuls of dough onto a baking sheet., 8. Bake for 10-12 minutes or until edges are golden., 9. Allow to cool on a wire rack.'
+        'instructions': '1. Preheat oven to 375°F (190°C)., 2. In a bowl cream together butter brown sugar and granulated sugar., 3. Beat in eggs and vanilla., 4. In a separate bowl whisk together flour baking soda and salt., 5. Combine wet and dry ingredients., 6. Fold in chocolate chips., 7. Drop spoonfuls of dough onto a baking sheet., 8. Bake for 10-12 minutes or until edges are golden., 9. Allow to cool on a wire rack.'
     },
     {
         'name': 'Vegetable Stir-Fry',
@@ -76,28 +76,28 @@ recipes = [
         'description': 'Comforting tomato soup made from scratch.',
         'image': '/images/recipe11.jpg',
         'ingredients': 'Tomatoes, Onion, Garlic, Vegetable broth, Olive oil, Basil, Salt, Pepper',
-        'instructions': '1. Saute chopped onion and garlic in olive oil., 2. Add chopped tomatoes and cook until soft., 3. Pour in vegetable broth and bring to a boil., 4. Simmer for 15-20 minutes., 5. Blend the soup until smooth., 6. Season with basil, salt, and pepper., 7. Serve hot.'
+        'instructions': '1. Saute chopped onion and garlic in olive oil., 2. Add chopped tomatoes and cook until soft., 3. Pour in vegetable broth and bring to a boil., 4. Simmer for 15-20 minutes., 5. Blend the soup until smooth., 6. Season with basil salt and pepper., 7. Serve hot.'
     },
     {
         'name': 'Grilled Salmon',
         'description': 'Healthy and flavorful grilled salmon fillets.',
         'image': '/images/recipe12.jpeg',
         'ingredients': 'Salmon fillets, Lemon, Olive oil, Dill, Salt, Pepper',
-        'instructions': '1. Preheat grill to medium-high heat., 2. Brush salmon fillets with olive oil., 3. Squeeze lemon juice over the fillets., 4. Sprinkle with chopped dill, salt, and pepper., 5. Grill for 4-5 minutes per side or until cooked through., 6. Serve with lemon wedges.'
+        'instructions': '1. Preheat grill to medium-high heat., 2. Brush salmon fillets with olive oil., 3. Squeeze lemon juice over the fillets., 4. Sprinkle with chopped dill salt and pepper., 5. Grill for 4-5 minutes per side or until cooked through., 6. Serve with lemon wedges.'
     },
     {
         'name': 'Vegetarian Tacos',
         'description': 'Delicious tacos filled with seasoned beans, veggies, and toppings.',
         'image': '/images/recipe13.jpg',
         'ingredients': 'Black beans, Corn tortillas, Avocado, Tomato, Onion, Cilantro, Lime, Taco seasoning',
-        'instructions': '1. Rinse and drain black beans., 2. Season beans with taco seasoning., 3. Warm corn tortillas., 4. Fill tortillas with seasoned beans., 5. Top with diced avocado, tomato, onion, and cilantro., 6. Squeeze lime over the tacos., 7. Enjoy!'
+        'instructions': '1. Rinse and drain black beans., 2. Season beans with taco seasoning., 3. Warm corn tortillas., 4. Fill tortillas with seasoned beans., 5. Top with diced avocado tomato onion and cilantro., 6. Squeeze lime over the tacos., 7. Enjoy!'
     },
     {
         'name': 'Mango Smoothie',
         'description': 'Refreshing smoothie with mango, yogurt, and banana.',
         'image': '/images/recipe14.jpg',
         'ingredients': 'Mango, Yogurt, Banana, Honey, Ice cubes',
-        'instructions': '1. Peel and dice mango., 2. Blend mango, yogurt, banana, honey, and ice cubes until smooth., 3. Pour into a glass and enjoy!'
+        'instructions': '1. Peel and dice mango., 2. Blend mango yogurt banana honey and ice cubes until smooth., 3. Pour into a glass and enjoy!'
     },
     {
         'name': 'Chicken Tikka Masala',
