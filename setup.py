@@ -173,6 +173,5 @@ for recipe_data in recipes:
         print("Recipe created successfully")
     except Exception as e:
         print("Error creating recipe:", e)
-
-    
+ 
     
