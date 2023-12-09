@@ -1,5 +1,6 @@
-
-# Creating 10 Recipe objects
+from tips.models import Tip
+from recipes.models import Recipe
+from store.models import Product    
 recipes = [
     {
         'name': 'Scrambled Eggs',
@@ -111,7 +112,7 @@ recipes = [
         'description': 'Garlicky shrimp served over pasta with a lemony butter sauce.',
         'image': '/images/recipe16.jpg',
         'ingredients': 'Shrimp, Linguine pasta, Butter, Olive oil, Garlic, Red pepper flakes, White wine, Lemon, Parsley, Salt, Pepper',
-        'instructions': '1. Cook linguine pasta according to package instructions., 2. In a skillet, melt butter with olive oil., 3. Add minced garlic and red pepper flakes., 4. Sauté shrimp until pink and opaque., 5. Pour in white wine and squeeze lemon., 6. Season with salt and pepper., 7. Toss cooked pasta in the shrimp and sauce., 8. Garnish with chopped parsley.'
+        'instructions': '1. Cook linguine pasta according to package instructions., 2. In a skillet melt butter with olive oil., 3. Add minced garlic and red pepper flakes., 4. Sauté shrimp until pink and opaque., 5. Pour in white wine and squeeze lemon., 6. Season with salt and pepper., 7. Toss cooked pasta in the shrimp and sauce., 8. Garnish with chopped parsley.'
     },
     {
         'name': 'Vegetarian Pad Thai',
@@ -146,7 +147,7 @@ recipes = [
         'description': 'Juicy grilled chicken marinated in a flavorful blend of lemon and herbs.',
         'image': '/images/recipe21.jpg',
         'ingredients': 'Chicken breasts, Lemon juice, Olive oil, Garlic, Fresh herbs (such as thyme and rosemary), Salt, Pepper',
-        'instructions': '1. In a bowl, mix lemon juice, olive oil, minced garlic, chopped fresh herbs, salt, and pepper to create the marinade., 2. Coat chicken breasts with the marinade and let it sit for at least 30 minutes., 3. Preheat the grill., 4. Grill chicken until fully cooked, with beautiful grill marks., 5. Let it rest for a few minutes before serving.'
+        'instructions': '1. In a bowl mix lemon juice olive oil minced garlic chopped fresh herbs salt and pepper to create the marinade., 2. Coat chicken breasts with the marinade and let it sit for at least 30 minutes., 3. Preheat the grill., 4. Grill chicken until fully cooked, with beautiful grill marks., 5. Let it rest for a few minutes before serving.'
     },
     {
         'name': 'Homemade Guacamole',
@@ -157,11 +158,8 @@ recipes = [
     }
 ]
 
-from recipes.models import Recipe
 
-# Iterate over recipes and create Recipe objects
 for recipe_data in recipes:
-    print("Processing recipe data:", recipe_data)
     try:
         Recipe.objects.create(
             name=recipe_data['name'],
@@ -170,8 +168,31 @@ for recipe_data in recipes:
             ingredients=recipe_data['ingredients'],
             instructions=recipe_data['instructions'],
         )
-        print("Recipe created successfully")
     except Exception as e:
         print("Error creating recipe:", e)
+
+tip1 = Tip.objects.create(user=None,subject="Flavorful Stir-Fry Creations",description="Cooking the perfect stir-fry involves more than just tossing ingredients in a hot pan. Start by preparing all your ingredients beforehand, ensuring that everything is chopped and ready to go. Use a wok or a wide skillet with high sides to allow for efficient tossing and even cooking. Begin by stir-frying aromatics like garlic and ginger in hot oil to infuse the base flavors. Add proteins next, such as thinly sliced chicken or beef, and cook until golden brown. Incorporate a colorful array of vegetables, starting with those that require more cooking time and gradually adding quicker-cooking veggies. For an authentic touch, whip up a simple sauce with soy sauce, oyster sauce, and a hint of sweetness. Toss everything together until well-coated, and finish with a sprinkle of fresh herbs or sesame seeds for that perfect stir-fry sensation.",image=None)
+tip1.save()
+tip2 = Tip.objects.create(user=None,subject="Homemade Pizza Mastery",description="Elevate your pizza-making skills with a few insider tips. Begin by selecting high-quality pizza dough or, better yet, try making your own for an authentic touch. Allow the dough to rest and rise properly for that perfect crust. Preheat your oven as high as it goes, ideally around 500°F (260°C), to achieve that coveted crispy crust. Dust your work surface generously with flour to prevent sticking as you roll out the dough to your desired thickness. For a flavorful base, consider using a homemade tomato sauce or a blend of olive oil and garlic. When it comes to toppings, the possibilities are endless—experiment with fresh mozzarella, a variety of cheeses, and an assortment of veggies and meats. Don't forget to sprinkle a pinch of sea salt over the top before baking to enhance the flavors. Keep a close eye on your pizza in the oven, and once it's golden and bubbling, pull it out, let it cool for a moment, and savor the fruits of your pizza-making prowess.",image=None)
+tip2.save()
+tip3 = Tip.objects.create(user=None,subject="Slow-Cooked Comfort: Hearty Beef Stew",description="There's something magical about the aroma of a simmering beef stew wafting through the kitchen on a chilly day. Crafting the perfect hearty beef stew is an art that requires time and patience. Start by choosing a well-marbled cut of beef, like chuck or stew meat, and generously season it with salt and pepper. In a large pot, heat oil over medium-high heat and sear the beef until it develops a deep, golden-brown crust. Set the beef aside and sauté a mirepoix of onions, carrots, and celery in the flavorful remnants of the beef. Deglaze the pot with a hearty red wine, scraping up the delicious brown bits from the bottom. Return the beef to the pot along with beef broth, tomatoes, and a bouquet garni of fresh herbs. Bring the stew to a gentle simmer, cover, and let it work its magic for a few hours. The slow-cooking process allows the beef to become tender, and the flavors to meld into a rich, comforting broth. As a finishing touch, add a medley of root vegetables like potatoes and parsnips, letting them cook until fork-tender. Ladle the stew into bowls, garnish with a sprinkle of fresh parsley, and serve with crusty bread to soak up every last bit of goodness. This slow-cooked masterpiece is sure to warm both body and soul.",image=None)
+tip3.save()
+
  
-    
+product1 = Product.objects.create(name="Khobar 10-Piece Stainless Steel Cookware Set",description="Consisting of assorted cooking vessels, this ten-piece cookware set is a must-have for your kitchen. Made from stainless steel material,these durable pieces are food safe and easy to use. The set comes with sleek handles that ensure maximum safety when cooking.",price=33.68,image="\images\item1.webp")
+
+product2 = Product.objects.create(name="Bake It 12-Cup Carbon Steel Muffin Pan - 27x35 cm",description="Bake delicious muffins at home with this tray in your collection. The muffin pan is made from durable carbon steel with provisions to make a dozen muffins at a time. The baking tray has a non-stick finish for added convenience.",price=2.40,image="\images\item2.webp")
+
+product3 = Product.objects.create(name="Tuile Stainless Steel Whistling Kettle - 3 L",description="A nifty pick for your kitchen, this kettle is ideal for boiling water to make hot beverages. Made from stainless steel, the piece is topped with a circular lid. Designed with a curved handle, this whistling kettle is a modern addition to your home. You can also consider this as a gifting option for new homes.",price=7.50,image="\images\item3.webp")
+
+product4 = Product.objects.create(name="Decatur Carbon Steel Springform Cake Pan - 26 cm",description="Bake your favourite cakes at home with this cake pan in your cookware essentials. The round cake pan is made from carbon steel with a non-stick finish for added ease. The two-piece cake pan requires a thorough hand wash after each use for its efficient care.",price=2.93,image="\images\item4.webp")
+
+product5 = Product.objects.create(name="Essential 8-Piece Measuring Spoon and Cup Set",description="Go for a smart look as you notch up your kitchen essentials with this set of measuring cups and spoons. The cups and spoons are handy and boast a modern appeal. Food-safe and dishwasher-safe, the set is made of stainless steel and plastic and are apt for regular use.",price=1.20,image="\images\item5.webp")
+
+product6 = Product.objects.create(name="Bake It 3-Piece Flower Shaped Cookie Cutter",description="Curated from quality material, this cookie cutter is perfect for the baker in you. With various sizes, this flower-shaped three-piece set will make baking a fun experience for you.",price=0.53,image="\images\item6.webp")
+
+product7 = Product.objects.create(name="Bake It Wavy Pastry Cutter",description="Ensure an easy way to cut your pastries after baking with this cutter. A handy pick, this cutter is designed with a wavy blade and an easy-to-grip handle.",price=1.13,image="\images\item7.webp")
+
+product8 = Product.objects.create(name="Bake It Solid Spoon",description="A spoon that flaunts a neat design and can be used to pick on solid food items or soups and curries for your convenience. It has a matte finish and is dishwasher safe.",price=1.58,image="\images\item8.webp")
+
+product9 = Product.objects.create(name="Bake It Stainless Steel Rolling Pin",description="Made from stainless steel, this durable rolling pin is a modern and convenient pick for your kitchen. Get a hassle-free cooking experience with the help of this food-safe rolling pin that's flanked by contrast handles. Ideal for flattening out the dough, this piece can be hand washed whenever needed.",price=3.38,image="\images\item9.webp")    

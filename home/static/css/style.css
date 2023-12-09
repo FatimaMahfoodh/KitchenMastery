@@ -56,32 +56,35 @@
 }
 
 .navigation a {
-  color: #281F1D;
   font-size: large;
 }
 
 .navigation a:hover {
   color: #E35732;
-  ;
   width: 100%;
 }
-
 .active-page {
   text-decoration: underline #FABB39 3px;
   text-underline-offset: 7px;
+  color: #E35732;
 }
 
 .cart-style {
   font-size: 1.5rem;
   margin-right: 15px;
+  color:#281F1D;
 }
 
+.cart-style:hover {
+  color:#E35732;
+}
 .button {
   background-color: #E35732;
   border: none;
   padding: 0.5rem 1rem;
   /* Adjust the padding as needed */
   font-size: 1rem;
+  color:#ffffff !important;
 }
 
 .button:hover {
