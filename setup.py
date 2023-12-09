@@ -42,7 +42,7 @@ recipes = [
         'description': 'Classic Italian pasta dish with meaty Bolognese sauce.',
         'image': '/images/recipe6.jpg',
         'ingredients': '400g ground beef, 1 onion, 2 cloves garlic, 400g canned tomatoes, 2 tablespoons tomato paste, 1 teaspoon dried oregano, Salt, Pepper, 300g spaghetti',
-        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet, cook ground beef until browned., 3. Add chopped onion and garlic, cook until softened., 4. Stir in canned tomatoes tomato paste oregano salt and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
+        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet cook ground beef until browned., 3. Add chopped onion and garlic, cook until softened., 4. Stir in canned tomatoes tomato paste oregano salt and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
     },
     {
         'name': 'Chicken Caesar Salad',
@@ -105,7 +105,7 @@ recipes = [
         'description': 'Rich and flavorful Indian chicken curry with a creamy tomato-based sauce.',
         'image': '/images/recipe15.jpg',
         'ingredients': 'Chicken thighs, Yogurt, Garam masala, Ginger, Garlic, Tomato puree, Heavy cream, Onion, Cilantro, Basmati rice',
-        'instructions': '1. Marinate chicken in yogurt, garam masala, ginger, and garlic., 2. Grill or cook chicken until fully cooked., 3. In a pan, sauté chopped onion until golden., 4. Add tomato puree and cook until oil separates., 5. Stir in heavy cream and cooked chicken., 6. Simmer until the sauce thickens., 7. Garnish with chopped cilantro., 8. Serve over cooked basmati rice.'
+        'instructions': '1. Marinate chicken in yogurt, garam masala, ginger, and garlic., 2. Grill or cook chicken until fully cooked., 3. In a pan sauté chopped onion until golden., 4. Add tomato puree and cook until oil separates., 5. Stir in heavy cream and cooked chicken., 6. Simmer until the sauce thickens., 7. Garnish with chopped cilantro., 8. Serve over cooked basmati rice.'
     },
     {
         'name': 'Shrimp Scampi',
@@ -119,14 +119,14 @@ recipes = [
         'description': 'Thai stir-fried noodles with tofu, vegetables, and a tangy tamarind sauce.',
         'image': '/images/recipe17.jpg',
         'ingredients': 'Rice noodles, Tofu, Bean sprouts, Carrots, Scallions, Peanuts, Eggs, Tamarind paste, Soy sauce, Lime, Sugar, Chili flakes',
-        'instructions': '1. Soak rice noodles in hot water until softened., 2. In a wok, stir-fry tofu, carrots, and scallions., 3. Push ingredients to one side and scramble eggs., 4. Add soaked rice noodles to the wok., 5. In a small bowl, mix tamarind paste, soy sauce, lime juice, sugar, and chili flakes., 6. Pour sauce over the noodles and toss., 7. Garnish with bean sprouts and chopped peanuts.'
+        'instructions': '1. Soak rice noodles in hot water until softened., 2. In a wok stir-fry tofu carrots and scallions., 3. Push ingredients to one side and scramble eggs., 4. Add soaked rice noodles to the wok., 5. In a small bowl mix tamarind paste soy sauce lime juice sugar and chili flakes., 6. Pour sauce over the noodles and toss., 7. Garnish with bean sprouts and chopped peanuts.'
     },
     {
         'name': 'Quinoa Salad',
         'description': 'Nutritious salad with quinoa, mixed greens, veggies, and a zesty vinaigrette.',
         'image': '/images/recipe18.jpg',
         'ingredients': 'Quinoa, Mixed greens, Cherry tomatoes, Cucumber, Avocado, Red onion, Feta cheese, Olive oil, Balsamic vinegar, Dijon mustard, Honey',
-        'instructions': '1. Cook quinoa according to package instructions., 2. In a large bowl, combine cooked quinoa, mixed greens, halved cherry tomatoes, sliced cucumber, diced avocado, sliced red onion, and crumbled feta cheese., 3. In a small bowl, whisk together olive oil, balsamic vinegar, Dijon mustard, and honey to make the vinaigrette., 4. Drizzle the vinaigrette over the salad and toss to combine.'
+        'instructions': '1. Cook quinoa according to package instructions., 2. In a large bowl combine cooked quinoa mixed greens halved cherry tomatoes sliced cucumber diced avocado sliced red onion and crumbled feta cheese., 3. In a small bowl whisk together olive oil balsamic vinegar Dijon mustard and honey to make the vinaigrette., 4. Drizzle the vinaigrette over the salad and toss to combine.'
     },
     {
         'name': 'Classic Caesar Salad',
@@ -154,7 +154,7 @@ recipes = [
         'description': 'Fresh and flavorful guacamole made with ripe avocados, tomatoes, onions, and lime.',
         'image': '/images/recipe22.jpg',
         'ingredients': 'Ripe avocados, Tomatoes, Red onion, Lime, Garlic, Jalapeño, Cilantro, Salt',
-        'instructions': '1. Cut avocados in half, remove the pit, and scoop the flesh into a bowl., 2. Mash the avocados with a fork., 3. Dice tomatoes, finely chop red onion, mince garlic, and finely chop jalapeño. Add them to the bowl., 4. Squeeze lime juice over the mixture., 5. Stir in chopped cilantro and season with salt to taste'
+        'instructions': '1. Cut avocados in half remove the pit and scoop the flesh into a bowl., 2. Mash the avocados with a fork., 3. Dice tomatoes finely chop red onion mince garlic and finely chop jalapeño. Add them to the bowl., 4. Squeeze lime juice over the mixture., 5. Stir in chopped cilantro and season with salt to taste'
     }
 ]
 
