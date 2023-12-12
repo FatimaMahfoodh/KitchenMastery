@@ -5,9 +5,10 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <table class="table table-responsive">
-        <h1 class="text-center mb-4 text-center display-2 heading">Cart Items</h1>
-        {% for item in cart_items %}
+      <h1 class="text-center mb-4 text-center display-2 heading">Cart Items</h1>
+      {% if cart %}
+        <table class="table table-responsive">
+          {% for item in cart_items %}
         <tr>
           <td>
             <div class="d-flex align-items-center">
@@ -40,10 +41,12 @@
         <button class="btn btn-primary button" id="confirmOrderBtn">Confirm Order</button>
       </div>
       <br>
+      {% else %}
+        <p class="text-center">No items in the cart.</p>
+      {% endif %}
     </div>
   </div>
 </div>
-<!-- Confirmation Modal -->
 <!-- Confirmation Modal -->
 <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel"
   aria-hidden="true">
