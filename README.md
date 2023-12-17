@@ -1,5 +1,6 @@
 
-# KitchenMastery: E-commernce webiste that sells cooking supplies and offers some cooking recipes and tips that website visitor my be interested in. The Project is a web application that was created using Django and Bootstrap frameworks and MongoDB as the backend database.
+# KitchenMastery:
+## E-commernce webiste that sells cooking supplies and offers some cooking recipes and tips that website visitor my be interested in. The Project is a web application that was created using Django and Bootstrap frameworks and MongoDB as the backend database.
 
 ## Steps to run the entire web application:
 
