@@ -4,7 +4,7 @@
 
 ### Steps to run the entire web application:
 
-1- Navigate to the project's directory.
+1- In Anaconda Prompt, Navigate to the project's directory.
 
 2- Create the virtual environment with conda.
 ```
