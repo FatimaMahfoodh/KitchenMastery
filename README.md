@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 ```
 ```
-pythhon manage.py migrate
+python manage.py migrate
 ```
 6- Populate Database wtih sample data.
 ```
