@@ -29,6 +29,9 @@ python manage.py migrate
 ```
 python manage.py shell < setup.py
 ```
+**in case the file did not execute, there are JSON files located in the project directory
+ where you can import the files using MongoDB compass
+
 7- create super user
 ```
 python manage.py createsuperuser
