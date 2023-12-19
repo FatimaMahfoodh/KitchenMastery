@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab32d"
+  },
+  "id": 1,
+  "user_id": null,
+  "date": {
+    "$date": "2023-12-19T10:00:13.505Z"
+  },
+  "subject": "Flavorful Stir-Fry Creations",
+  "description": "Cooking the perfect stir-fry involves more than just tossing ingredients in a hot pan. Start by preparing all your ingredients beforehand, ensuring that everything is chopped and ready to go. Use a wok or a wide skillet with high sides to allow for efficient tossing and even cooking. Begin by stir-frying aromatics like garlic and ginger in hot oil to infuse the base flavors. Add proteins next, such as thinly sliced chicken or beef, and cook until golden brown. Incorporate a colorful array of vegetables, starting with those that require more cooking time and gradually adding quicker-cooking veggies. For an authentic touch, whip up a simple sauce with soy sauce, oyster sauce, and a hint of sweetness. Toss everything together until well-coated, and finish with a sprinkle of fresh herbs or sesame seeds for that perfect stir-fry sensation.",
+  "image": ""
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab32e"
+  },
+  "id": 2,
+  "user_id": null,
+  "date": {
+    "$date": "2023-12-19T10:00:13.515Z"
+  },
+  "subject": "Homemade Pizza Mastery",
+  "description": "Elevate your pizza-making skills with a few insider tips. Begin by selecting high-quality pizza dough or, better yet, try making your own for an authentic touch. Allow the dough to rest and rise properly for that perfect crust. Preheat your oven as high as it goes, ideally around 500Â°F (260Â°C), to achieve that coveted crispy crust. Dust your work surface generously with flour to prevent sticking as you roll out the dough to your desired thickness. For a flavorful base, consider using a homemade tomato sauce or a blend of olive oil and garlic. When it comes to toppings, the possibilities are endlessâ€”experiment with fresh mozzarella, a variety of cheeses, and an assortment of veggies and meats. Don't forget to sprinkle a pinch of sea salt over the top before baking to enhance the flavors. Keep a close eye on your pizza in the oven, and once it's golden and bubbling, pull it out, let it cool for a moment, and savor the fruits of your pizza-making prowess.",
+  "image": ""
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab32f"
+  },
+  "id": 3,
+  "user_id": null,
+  "date": {
+    "$date": "2023-12-19T10:00:13.523Z"
+  },
+  "subject": "Slow-Cooked Comfort: Hearty Beef Stew",
+  "description": "There's something magical about the aroma of a simmering beef stew wafting through the kitchen on a chilly day. Crafting the perfect hearty beef stew is an art that requires time and patience. Start by choosing a well-marbled cut of beef, like chuck or stew meat, and generously season it with salt and pepper. In a large pot, heat oil over medium-high heat and sear the beef until it develops a deep, golden-brown crust. Set the beef aside and sautÃ© a mirepoix of onions, carrots, and celery in the flavorful remnants of the beef. Deglaze the pot with a hearty red wine, scraping up the delicious brown bits from the bottom. Return the beef to the pot along with beef broth, tomatoes, and a bouquet garni of fresh herbs. Bring the stew to a gentle simmer, cover, and let it work its magic for a few hours. The slow-cooking process allows the beef to become tender, and the flavors to meld into a rich, comforting broth. As a finishing touch, add a medley of root vegetables like potatoes and parsnips, letting them cook until fork-tender. Ladle the stew into bowls, garnish with a sprinkle of fresh parsley, and serve with crusty bread to soak up every last bit of goodness. This slow-cooked masterpiece is sure to warm both body and soul.",
+  "image": ""
+}]

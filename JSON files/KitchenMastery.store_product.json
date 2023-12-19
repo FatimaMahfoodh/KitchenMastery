@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab330"
+  },
+  "id": 1,
+  "name": "Khobar 10-Piece Stainless Steel Cookware Set",
+  "description": "Consisting of assorted cooking vessels, this ten-piece cookware set is a must-have for your kitchen. Made from stainless steel material,these durable pieces are food safe and easy to use. The set comes with sleek handles that ensure maximum safety when cooking.",
+  "price": {
+    "$numberDecimal": "33.68"
+  },
+  "image": "\\images\\item1.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab331"
+  },
+  "id": 2,
+  "name": "Bake It 12-Cup Carbon Steel Muffin Pan - 27x35 cm",
+  "description": "Bake delicious muffins at home with this tray in your collection. The muffin pan is made from durable carbon steel with provisions to make a dozen muffins at a time. The baking tray has a non-stick finish for added convenience.",
+  "price": {
+    "$numberDecimal": "2.40"
+  },
+  "image": "\\images\\item2.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab332"
+  },
+  "id": 3,
+  "name": "Tuile Stainless Steel Whistling Kettle - 3 L",
+  "description": "A nifty pick for your kitchen, this kettle is ideal for boiling water to make hot beverages. Made from stainless steel, the piece is topped with a circular lid. Designed with a curved handle, this whistling kettle is a modern addition to your home. You can also consider this as a gifting option for new homes.",
+  "price": {
+    "$numberDecimal": "7.50"
+  },
+  "image": "\\images\\item3.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab333"
+  },
+  "id": 4,
+  "name": "Decatur Carbon Steel Springform Cake Pan - 26 cm",
+  "description": "Bake your favourite cakes at home with this cake pan in your cookware essentials. The round cake pan is made from carbon steel with a non-stick finish for added ease. The two-piece cake pan requires a thorough hand wash after each use for its efficient care.",
+  "price": {
+    "$numberDecimal": "2.93"
+  },
+  "image": "\\images\\item4.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab334"
+  },
+  "id": 5,
+  "name": "Essential 8-Piece Measuring Spoon and Cup Set",
+  "description": "Go for a smart look as you notch up your kitchen essentials with this set of measuring cups and spoons. The cups and spoons are handy and boast a modern appeal. Food-safe and dishwasher-safe, the set is made of stainless steel and plastic and are apt for regular use.",
+  "price": {
+    "$numberDecimal": "1.20"
+  },
+  "image": "\\images\\item5.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab335"
+  },
+  "id": 6,
+  "name": "Bake It 3-Piece Flower Shaped Cookie Cutter",
+  "description": "Curated from quality material, this cookie cutter is perfect for the baker in you. With various sizes, this flower-shaped three-piece set will make baking a fun experience for you.",
+  "price": {
+    "$numberDecimal": "0.53"
+  },
+  "image": "\\images\\item6.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab336"
+  },
+  "id": 7,
+  "name": "Bake It Wavy Pastry Cutter",
+  "description": "Ensure an easy way to cut your pastries after baking with this cutter. A handy pick, this cutter is designed with a wavy blade and an easy-to-grip handle.",
+  "price": {
+    "$numberDecimal": "1.13"
+  },
+  "image": "\\images\\item7.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab337"
+  },
+  "id": 8,
+  "name": "Bake It Solid Spoon",
+  "description": "A spoon that flaunts a neat design and can be used to pick on solid food items or soups and curries for your convenience. It has a matte finish and is dishwasher safe.",
+  "price": {
+    "$numberDecimal": "1.58"
+  },
+  "image": "\\images\\item8.webp"
+},
+{
+  "_id": {
+    "$oid": "658169ad4c632176d75ab338"
+  },
+  "id": 9,
+  "name": "Bake It Stainless Steel Rolling Pin",
+  "description": "Made from stainless steel, this durable rolling pin is a modern and convenient pick for your kitchen. Get a hassle-free cooking experience with the help of this food-safe rolling pin that's flanked by contrast handles. Ideal for flattening out the dough, this piece can be hand washed whenever needed.",
+  "price": {
+    "$numberDecimal": "3.38"
+  },
+  "image": "\\images\\item9.webp"
+}]
