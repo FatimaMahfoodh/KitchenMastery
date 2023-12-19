@@ -1,8 +1,8 @@
 
-# KitchenMastery
-E-commernce webiste that sells cooking supplies and offers some cooking recipes and tips that website visitor my be interested in. The Project is a web application that was created using Django and Bootstrap frameworks and MongoDB as the backend database.
+# KitchenMastery:
+## E-commernce webiste that sells cooking supplies and offers some cooking recipes and tips that website visitor my be interested in. The Project is a web application that was created using Django and Bootstrap frameworks and MongoDB as the backend database.
 
-Steps to run the entire web appllication:
+### Steps to run the entire web application:
 
 1- Navigate to the project's directory.
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 ```
 ```
-pythhon manage.py migrate
+python manage.py migrate
 ```
 6- Populate Database wtih sample data.
 ```
