@@ -8,11 +8,11 @@
 
 2- Create the virtual environment with conda.
 ```
-conda create --name kitchenMasteryEnv django
+conda create --name kitchenEnv django
 ```
 3- Activate the environment.
 ```
-conda activate kitchenMasteryEnv
+conda activate kitchenEnv
 ```
 4- Install project dependecies from a text file.
 ```
