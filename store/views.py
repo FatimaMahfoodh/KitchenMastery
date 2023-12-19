@@ -26,7 +26,6 @@ def add_to_cart(request, product_id):
     if not item_created:
         cart_item.quantity += 1
         cart_item.save()
-
     return redirect('store:store')
 
 def increase_cart_item(request, product_id):

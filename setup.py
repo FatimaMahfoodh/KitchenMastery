@@ -42,7 +42,7 @@ recipes = [
         'description': 'Classic Italian pasta dish with meaty Bolognese sauce.',
         'image': '/images/recipe6.jpg',
         'ingredients': '400g ground beef, 1 onion, 2 cloves garlic, 400g canned tomatoes, 2 tablespoons tomato paste, 1 teaspoon dried oregano, Salt, Pepper, 300g spaghetti',
-        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet cook ground beef until browned., 3. Add chopped onion and garlic, cook until softened., 4. Stir in canned tomatoes tomato paste oregano salt and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
+        'instructions': '1. Cook spaghetti according to package instructions., 2. In a skillet cook ground beef until browned., 3. Add chopped onion and garlic cook until softened., 4. Stir in canned tomatoes tomato paste oregano salt and pepper., 5. Simmer for 20 minutes., 6. Serve Bolognese sauce over cooked spaghetti.'
     },
     {
         'name': 'Chicken Caesar Salad',
@@ -105,7 +105,7 @@ recipes = [
         'description': 'Rich and flavorful Indian chicken curry with a creamy tomato-based sauce.',
         'image': '/images/recipe15.jpg',
         'ingredients': 'Chicken thighs, Yogurt, Garam masala, Ginger, Garlic, Tomato puree, Heavy cream, Onion, Cilantro, Basmati rice',
-        'instructions': '1. Marinate chicken in yogurt, garam masala, ginger, and garlic., 2. Grill or cook chicken until fully cooked., 3. In a pan sauté chopped onion until golden., 4. Add tomato puree and cook until oil separates., 5. Stir in heavy cream and cooked chicken., 6. Simmer until the sauce thickens., 7. Garnish with chopped cilantro., 8. Serve over cooked basmati rice.'
+        'instructions': '1. Marinate chicken in yogurt garam masala ginger and garlic., 2. Grill or cook chicken until fully cooked., 3. In a pan sauté chopped onion until golden., 4. Add tomato puree and cook until oil separates., 5. Stir in heavy cream and cooked chicken., 6. Simmer until the sauce thickens., 7. Garnish with chopped cilantro., 8. Serve over cooked basmati rice.'
     },
     {
         'name': 'Shrimp Scampi',
@@ -140,21 +140,21 @@ recipes = [
         'description': 'Creamy Italian risotto with mushrooms and Parmesan cheese.',
         'image': '/images/recipe20.jpg',
         'ingredients': 'Arborio rice, Mushrooms, Onion, Garlic, White wine, Vegetable broth, Parmesan cheese, Butter, Olive oil',
-        'instructions': '1. In a pan, sauté chopped onion and garlic in olive oil., 2. Add sliced mushrooms and cook until browned., 3. Stir in Arborio rice and cook until translucent., 4. Pour in white wine and cook until absorbed., 5. Gradually add vegetable broth, stirring continuously., 6. Continue adding broth until rice is creamy and cooked., 7. Stir in Parmesan cheese and butter., 8. Season with salt and pepper., 9. Serve hot.'
+        'instructions': '1. In a pan sauté chopped onion and garlic in olive oil., 2. Add sliced mushrooms and cook until browned., 3. Stir in Arborio rice and cook until translucent., 4. Pour in white wine and cook until absorbed., 5. Gradually add vegetable broth stirring continuously., 6. Continue adding broth until rice is creamy and cooked., 7. Stir in Parmesan cheese and butter., 8. Season with salt and pepper., 9. Serve hot.'
     },
     {
         'name': 'Lemon Herb Grilled Chicken',
         'description': 'Juicy grilled chicken marinated in a flavorful blend of lemon and herbs.',
         'image': '/images/recipe21.jpg',
         'ingredients': 'Chicken breasts, Lemon juice, Olive oil, Garlic, Fresh herbs (such as thyme and rosemary), Salt, Pepper',
-        'instructions': '1. In a bowl mix lemon juice olive oil minced garlic chopped fresh herbs salt and pepper to create the marinade., 2. Coat chicken breasts with the marinade and let it sit for at least 30 minutes., 3. Preheat the grill., 4. Grill chicken until fully cooked, with beautiful grill marks., 5. Let it rest for a few minutes before serving.'
+        'instructions': '1. In a bowl mix lemon juice olive oil minced garlic chopped fresh herbs salt and pepper to create the marinade., 2. Coat chicken breasts with the marinade and let it sit for at least 30 minutes., 3. Preheat the grill., 4. Grill chicken until fully cooked with beautiful grill marks., 5. Let it rest for a few minutes before serving.'
     },
     {
         'name': 'Homemade Guacamole',
         'description': 'Fresh and flavorful guacamole made with ripe avocados, tomatoes, onions, and lime.',
         'image': '/images/recipe22.jpg',
         'ingredients': 'Ripe avocados, Tomatoes, Red onion, Lime, Garlic, Jalapeño, Cilantro, Salt',
-        'instructions': '1. Cut avocados in half remove the pit and scoop the flesh into a bowl., 2. Mash the avocados with a fork., 3. Dice tomatoes finely chop red onion mince garlic and finely chop jalapeño. Add them to the bowl., 4. Squeeze lime juice over the mixture., 5. Stir in chopped cilantro and season with salt to taste'
+        'instructions': '1. Cut avocados in half remove the pit and scoop the flesh into a bowl., 2. Mash the avocados with a fork., 3. Dice tomatoes finely chop red onion mince garlic and finely chop jalapeno. Add them to the bowl., 4. Squeeze lime juice over the mixture., 5. Stir in chopped cilantro and season with salt to taste'
     }
 ]
 
